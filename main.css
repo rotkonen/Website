@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body{ 
+    background-image: url('lataus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    }
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    }
+.responsive-footer{
+    display: flex;
+    }
+.navbar .navbar-brand{
+    margin-left: 2%;
+}
+.navbar ul{
+    margin-right: 2%;
+}
+.navbar .navbar-toggler{
+    margin-right: 2%;
+}
+.navbar li{
+    margin-right: 50px;
+}
