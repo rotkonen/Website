@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="main.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <html>
     <head>
         <title>My page</title>
@@ -10,24 +10,38 @@
             h1{
                 color: white;
                 text-align:center;
-                padding: 10% 10% 10% 10%;
+                padding: 5% 5% 5% 5%;
+                font-family: 'Anton', sans-serif
+            }
+            h2{
+                color:white;
+                text-align:center;
+                font-family: 'Anton', sans-serif
+            }
+            address{
+                width:100%;
+                text-align: center;
+                font-size: 20px;
+            }
+            a:hover{
+                opacity: 0.7;
             }
         </style>
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark py-4">
             <a href="Homepage.html" class="navbar-brand">Home</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarMenu">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="Games.html" class="nav-link">Games</a>
+                    <li class="nav-item ms-auto">
+                        <a href="Contact.html" class="nav-link active">Contact</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="Contact.html" class="nav-link">Contact</a>
+                    <li class="nav-item ms-auto">
+                        <a href="Games.html" class="nav-link active">Games</a>
                     </li>
                 </ul>
             </div>
@@ -35,6 +49,19 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
         <h1>Contact</h1>
+        <h2>You can find me on most social media platforms.</h2>
+        <h2>Email is the best way to contact me !</h2>
+        <div class="socialmediaicons">
+            <a href="https://www.facebook.com/niklas.rotkonen/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/Ragefacefin" class="fa fa-twitter"></a>
+            <a href="https://www.linkedin.com/in/niklas-r%C3%B6tk%C3%B6nen-7517a8155/" class="fa fa-linkedin"></a>
+            <a href="https://www.youtube.com/channel/UCb-I5zJwbN8OfwsfOxJ0xKQ" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/n1ckn1ck/?hl=fi" class="fa fa-instagram"></a>
+        </div>
+        <address>
+            <a href="mailto:niklas.rotkonen@hotmail.com" style="color:white;">niklas.rotkonen@hotmail.com</a><br>
+            <a href="tel:+358503561337" style="color:white;">+358503561337</a>
+        </address>
         <footer>
             <div class="responsive-footer">
                 <p>&#169Niklas Rötkönen 2021</p>
